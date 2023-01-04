@@ -2,9 +2,8 @@ import Image from "next/image";
 import Link from 'next/link';
 import { IoMdArrowDropdownCircle } from 'react-icons/io';
 import { BsArrowRight } from 'react-icons/bs';
-import { BiPhoneCall } from 'react-icons/bi';
+import { BiPhoneCall, BiMenu } from 'react-icons/bi';
 import { MdOutlineMail } from 'react-icons/md';
-import { BiMenu } from 'react-icons/bi';
 import {
   Drawer,
   DrawerBody,
@@ -30,8 +29,7 @@ function Hamburger() {
 
   return (
     <>
-     
-      <Button onClick={onOpen} left style={ menuStyle } className={ styles.hamburger}>
+      <Button onClick={onOpen}>
         < BiMenu />
       </Button>
 
@@ -47,13 +45,10 @@ function Hamburger() {
         <DrawerContent>
           <DrawerCloseButton />
           <DrawerHeader borderBottomWidth='1px'>
-            <Image src='/sendme-logo.png' width={70}  height={29} alt='sendme logo'/>
+            <Image src='/imeat-logo.png' width={70}  height={29} alt='sendme logo'/>
           </DrawerHeader>
 
-          <DrawerBody width='100%' styles={ {
-            marginBottom: '1rem',
-            fontWeight: 500
-          }}>
+          <DrawerBody width='100%'>
 
             <Link href="/WhoWeAre">
               Our Products 
@@ -87,3 +82,5 @@ function Hamburger() {
     </>
   )
 };
+
+export default Hamburger;
