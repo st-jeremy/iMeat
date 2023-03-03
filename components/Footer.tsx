@@ -2,6 +2,7 @@ import { Box, Heading, Input, InputGroup, InputRightAddon, Text, Button} from "@
 import { SlSocialFacebook, SlSocialLinkedin, SlSocialInstagram } from 'react-icons/sl'
 // import Logo from "./Logo";
 import Link from "next/link";
+import Catalog from '../pages/Catalog';
 
 const Footer = () => {
 
@@ -25,7 +26,7 @@ const Footer = () => {
           <Box display={'flex'} flexDirection={'column'} mb={10} fontSize={{base: 'sm', sm: 'md'}}>
             <Link href='/Help'>
               <Button _hover={{textDecoration: 'underline'}} variant={'ghost'}>
-                Help Center
+               Our Catalog
               </Button>
             </Link>
             <Link href='/Help'>
@@ -35,7 +36,7 @@ const Footer = () => {
             </Link>
             <Link href='/Account'>
               <Button _hover={{textDecoration: 'underline'}} variant={'ghost'}>
-                My Account
+                Contact us
               </Button>
             </Link>
           </Box>
