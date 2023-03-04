@@ -6,6 +6,7 @@ const Catalog = () => {
     <Box>
       <Heading>Our Product Offerings.</Heading>
       <Box>ftyufuc</Box>
+      <Box>ftyufuc</Box>
     </Box>
    );
 }
