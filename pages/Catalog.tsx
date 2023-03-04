@@ -9,6 +9,7 @@ const Catalog = () => {
       <Box>ftyufuc</Box>
       <Box>ftyufuc</Box>
       <Box>ftyufuc</Box>ad
+      <Box>ftyufuc</Box>
     </Box>
    );
 }
