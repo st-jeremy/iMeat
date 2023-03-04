@@ -1,7 +1,7 @@
-import Help from './Help';
+// import Help from './Help';
 import Hamburger from './Hamburger';
 import { Box, Heading  } from '@chakra-ui/react';
-import Logo from './Logo';
+// import Logo from './Logo';
 
 
 
@@ -23,13 +23,13 @@ const Header = () => {
 
       <Box display='flex' flexDirection={{base: 'column', md: 'row'}} p={{base: '2px', md: '1rem 2rem'}} color={'white'} maxWidth={'1400px'} margin={'auto'}>
 
-        <Logo />
+        {/* <Logo /> */}
 
         <Box display={{base: 'inline-flex', md: 'flex'}} flexDirection={'row'}  margin={ 'auto'} width={'90%'} p={1} bgColor={'black'}>
           <Hamburger />
 
 
-          <Help />
+          {/* <Help /> */}
 
         </Box>
       </Box>
