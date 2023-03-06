@@ -2,9 +2,7 @@ import '../styles/globals.css'
 import type { AppProps } from 'next/app'
 import { ChakraProvider } from '@chakra-ui/react'
 import Layout from '../components/Layout';
-import { DynaPuff } from '@next/font/google';
-
-const dynaPuff = DynaPuff({subsets: ['latin']})
+import { dynaPuff } from '../components/Font';
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
