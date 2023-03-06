@@ -5,7 +5,7 @@ import { Box, Heading  } from '@chakra-ui/react';
 
 
 
-const Header = () => {
+const Navbar = () => {
 
   return ( 
     <Box bgColor= 'black' position={'fixed'} zIndex={'1000'} width={'100%'}>
@@ -39,4 +39,4 @@ const Header = () => {
    );
 }
  
-export default Header;
+export default Navbar;

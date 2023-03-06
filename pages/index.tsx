@@ -3,7 +3,7 @@ import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import { Box, Input } from '@chakra-ui/react'
 import Footer from '../components/Footer'
-import Header from '../components/Header'
+import Header from '../components/Navbar'
 
 const inter = Inter({ subsets: ['latin'] })
 
