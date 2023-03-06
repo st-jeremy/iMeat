@@ -2,8 +2,6 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import { Box, Input } from '@chakra-ui/react'
-import Footer from '../components/Footer'
-import Header from '../components/Navbar'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -18,10 +16,6 @@ export default function Home() {
       </Head>
 
       <Box bgColor={'red'}>
-        <Header />
-        imeat, your quality meat portal!
-
-        <Footer />
         
       </Box>
     </>
